@@ -1,20 +1,19 @@
 {
   "private": true,
-  "name": "serve-cdn-assets",
+  "name": "opendesk__cloudinary--proxy",
   "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
+  "description": "SAve som $ on Cloudinary by using a proxy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'",
     "dev": "wrangler dev"
   },
-  "author": "Wes Bos <wesbos@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^3.5.3"
   },
   "dependencies": {
-    "wrangler": "^3.91.0"
+    "wrangler": "^4.13.2"
   }
 }
